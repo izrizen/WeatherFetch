@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div id="weatherApp">
+        <div id="coverEffect"></div>
+        <div id="cover">
+            <div id="loader" class="loading"></div>
+        </div>
+        
+        <div id="backgroundBall"></div>
+        <div id="weatherTop">
+            <h2 id="city">Opelousas</h2>
+            <div id="weatherInfo">
+                <div id=currentDegrees>
+                    <p id="cTemp">00</p>
+                    <div id="degreeType">
+                        <div id="weatherInfo">
+                            <span id="fah" class="active">°F</span>
+                            <span id="divider">|</span>
+                            <span id="cel">°C</span>
+                        </div>
+                        <span id="feelsLike">Feels Like</span>
+                    </div>
+                    
+                </div>
+                <span id="currentDay">Sunday </span>
+                <span id="currentDay">|</span>
+                <span id="currentDate">2/4/2023</span>
+                <h3 id="status">Clear</h3>
+            </div>
+            <img src="http://openweathermap.org/img/wn/01d@2x.png" id="currentImg" alt="" id="weatherIcon">
+        </div>
+        <div id="weatherBottom">
+            <div class="weekly">
+                <h2>Mon</h2>
+                <div class="bottomRightSide">
+                    <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
+                    <h3>26° F / 12°C</h3>
+                </div>
+            </div>
+            <div class="weekly">
+                <h2>Tue</h2>
+                <div class="bottomRightSide">
+                    <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
+                    <h3>26° F / 12°C</h3>
+                </div>
+            </div>
+            <div class="weekly">
+                <h2>Wed</h2>
+                <div class="bottomRightSide">
+                    <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
+                    <h3>26° F / 12°C</h3>
+                </div>
+            </div>
+            <div class="weekly">
+                <h2>Thu</h2>
+                <div class="bottomRightSide">
+                    <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
+                    <h3>26° F / 12°C</h3>
+                </div>
+            </div>
+            <div class="weekly">
+                <h2>Fri</h2>
+                <div class="bottomRightSide">
+                    <img src="http://openweathermap.org/img/wn/02d@2x.png" alt="">
+                    <h3>26° F / 12°C</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
